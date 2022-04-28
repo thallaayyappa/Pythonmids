@@ -1,14 +1,5 @@
-import keyword
+name = "thalla"
+age = 40
+sal = 2000
 
-print("this is sample")
-
-x = 10
-y = 20
-z = 23.3
-print(x, y, z)
-
-a,b,c=10,20,"welcome"
-print(a,b,c)
-
-print(type(x))
-print(keyword.kwlist)
+print("name is:%s age:%d salary is:%g" %(name, age, sal))
